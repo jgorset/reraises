@@ -1,6 +1,6 @@
 # Reraises
 
-![Travis CI](https://travis-ci.org/jgorset/django-kronos.png)
+[![Build Status](https://travis-ci.org/jgorset/reraises.png?branch=master)](https://travis-ci.org/jgorset/reraises)
 
 It's a good idea to reraise exceptions from third-party libraries as your own so
 you're not leaking implementation details all over your codebase. For example,
