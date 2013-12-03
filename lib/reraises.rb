@@ -1,18 +1,5 @@
 require "reraises/version"
 
-# Rescue exceptions and raise them as others.
-#
-# Usage example:
-#
-#   class Adapter
-#     extend Reraises
-#
-#     reraise UglyException, as: PrettyException, in: "bar"
-#
-#     def query
-#       raise UglyException, "This exception will be reraised as a PrettyException"
-#     end
-#   end
 module Reraises
 
   # Rescue a given exception and raise another.

@@ -13,12 +13,12 @@ them everywhere gets old really fast. That's where reraises comes in.
 ## Usage
 
 ```ruby
-class Foo
+class Adapter
   extend Reraises
 
-  reraise FbGraph::NotFound, as: Facebook::Page::Inaccessible, in: "bar"
+  reraise FbGraph::NotFound, as: Facebook::Page::Inaccessible, in: "query"
 
-  def bar
+  def query
     raise FbGraph::NotFound, "This will be reraised as Facebook::Page::Inaccessible"
   end
 end
