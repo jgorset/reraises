@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Reraises::VERSION
   spec.authors       = ["Johannes Gorset"]
   spec.email         = ["jgorset@gmail.com"]
-  spec.description   = "Reraise bad exceptions as good exceptions"
-  spec.summary       = "Reraise bad exceptions as good exceptions"
-  spec.homepage      = ""
+  spec.description   = "Reraise an exception as another"
+  spec.summary       = "Reraise an exception as another"
+  spec.homepage      = "https://github.com/jgorset/reraises"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
