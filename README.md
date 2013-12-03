@@ -1,5 +1,7 @@
 # Reraises
 
+![Travis CI](https://travis-ci.org/jgorset/django-kronos.png)
+
 It's a good idea to reraise exceptions from third-party libraries as your own so
 you're not leaking implementation details all over your codebase. For example,
 I would rather deal with my own `Facebook::Page::Inaccessible` exception than
